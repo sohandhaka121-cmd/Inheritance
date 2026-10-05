@@ -8,7 +8,7 @@ class Person:
 
 
 class Student(Person):
-    School_name = "ABC School"
+    School_name = "Govt School"
 
     def __init__(self, name, age, roll, marks=0):
         super().__init__(name, age)
