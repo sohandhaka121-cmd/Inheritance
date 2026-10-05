@@ -25,8 +25,8 @@ class Student(Person):
         return self.__marks
 
 
-s1 = Student("Sohan", 18, 10, 80)
-s2 = Student("WAZID", 14, 16, 70)
+s1 = Student("Mahi", 18, 10, 38)
+s2 = Student("risat", 13, 10, 72)
 
 s1.show_info()
 print(s1.roll)
