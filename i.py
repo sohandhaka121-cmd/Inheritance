@@ -27,6 +27,9 @@ class Student(People):
 
 s1 = Student("Mahi", 18, 10, 38)
 s2 = Student("risat", 13, 10, 72)
+s3 = Student("Sohanur", 18, 19, 88)
+
+
 
 s1.show_info()
 print(s1.roll)
@@ -34,3 +37,6 @@ print(s1.get_marks())
 s2.show_info()
 print(s2.roll)
 print(s2.get_marks())
+s3.show_info()
+print(s3.roll)
+print(s3.get_marks())
