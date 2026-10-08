@@ -1,4 +1,4 @@
-class Person:
+class People:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -7,7 +7,7 @@ class Person:
         print(self.name, self.age)
 
 
-class Student(Person):
+class Student(People):
     School_name = "Govt School"
 
     def __init__(self, name, age, roll, marks=0):
